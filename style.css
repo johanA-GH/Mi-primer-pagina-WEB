@@ -1,0 +1,89 @@
+/*selector: va a ser la manera q tenemos para identificar a quien le vamos a aplicar las reglas que queremos poner
+selector {
+    regla1: valor1;
+    regla2: valor2;
+    }        
+    */
+
+/*selector de etiqueta: va a ubicar a todas las etiquetas y aplicarles los cambiosde la regla q se indican
+    */
+
+body {
+    font-family: "lucida console", "courier new", monospace;
+}
+
+/*selector de clase: va a ubicar todos los elementos q tengan la calase aplicada y aplicar los cambios de las reglas q se indican.
+recuerda q las clases q se pueden poner a mas de un elemento y al mas elementos se le puede poner mas de una clase
+*/
+
+.CENTER {
+    text-align: center;
+}
+
+.times {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.letra-morado {
+    color: purple;
+}
+
+/*el selector de ID va a ubicar a el unico elemento q tenga el id y aplicarle  los cambios de las reglas q se indican.
+ recuerda q las clases se pueden poner
+ mas de un elemento y al elemento se le puede poner mas de una clase
+  */
+.titulo-azul {
+    color:  
+    rgb(4, 190, 223);
+
+}
+
+.verde-premisa {
+    color: rgb(206, 248, 109);
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
+.capitulos-sip {
+    color: rgb(99, 0, 58);
+}
+
+.cap {
+    color: rgb(190, 135, 51);
+}
+
+.info {
+    color: aqua;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(225, 126, 255);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #c9ffbb;
+}
